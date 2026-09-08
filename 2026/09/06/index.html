@@ -155,6 +155,12 @@ a.halaman:hover{text-decoration:none;transform:translateY(-4px) rotate(-.4deg);
 .kertas-info span{background:var(--langit-2);padding:4px 12px;border-radius:999px;font-weight:700;
   color:var(--laut-tua)}
 .arah{display:flex;justify-content:space-between;gap:12px;margin:8px 0 34px;flex-wrap:wrap}
+/* pindah halaman beranda — pakai gaya .arah/.pil yang sudah ada supaya
+   tidak ada tampilan baru yang harus diurus sendiri */
+.nav-halaman{align-items:center;margin-top:26px}
+.hitung-halaman{font-size:.86rem;color:var(--laut-tua);opacity:.65;
+  font-weight:700;order:0}
+@media (max-width:560px){.hitung-halaman{order:3;width:100%;text-align:center}}
 
 /* halaman Tentang: kartu terpisah, bukan satu lembar panjang */
 .tentang-kepala{display:flex;align-items:center;gap:22px;margin:26px 0 22px;
@@ -293,7 +299,7 @@ a.halaman:hover{text-decoration:none;transform:translateY(-4px) rotate(-.4deg);
 </article>
 <div class="kertas-info"><span>Ditulis sesudah siaran Minggu, 6 September 2026</span>
   <span>150 menit</span><span>325 penonton</span><span>1.081 chat</span></div>
-<nav class="arah"><a class="pil" href="../../../2026/09/05-2/">← Mizuki Mimpi Ketemu Aku</a><a class="pil" href="../../../2026/09/07/">Aku Lupa Satu Orang →</a></nav>
+<nav class="arah"><a class="pil" href="../../../2026/09/05-2/">← Mizuki Mimpi Ketemu Aku</a><a class="pil" href="../../../2026/09/07/">Diabsen Aja Udah Cukup →</a></nav>
 </main>
 <footer class="kaki-situs">
   <span>© Aora · <a href="https://www.tiktok.com/@aoradesu">TikTok @aoradesu</a> · <a href="https://www.youtube.com/@AoraDesuAI">YouTube @AoraDesuAI</a> · <a href="../../../rss.xml">RSS</a></span>
